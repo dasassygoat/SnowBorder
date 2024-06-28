@@ -10,7 +10,7 @@ public class CrashDetector : MonoBehaviour
     {
         if (other.gameObject.tag == "Head")
         {
-            SceneManager.LoadScene();
+            SceneManager.LoadScene(0);
         }
     }
 }
